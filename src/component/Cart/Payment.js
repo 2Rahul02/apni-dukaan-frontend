@@ -57,7 +57,7 @@ const Payment = ({ history }) => {
         },
       };
       const { data } = await axios.post(
-        "/api/v1/payment/process",
+        "https://apni-dukaan-backend.onrender.com/api/v1/payment/process",
         paymentData,
         config
       );
